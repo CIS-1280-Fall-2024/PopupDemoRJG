@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PopupDemo.DisplayPromptDemoPage"
+             Title="DisplayPromptDemoPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Display prompt"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button x:Name="btnDisplayPrompt" Text="Display Prompt" Clicked="BtnDisplayPromptClickedAsync"/>
+        <Label x:Name="lblName" Text="Please click the button!" />
+
+        <Label 
+            Text="Display prompt with arguments"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button x:Name="btnDisplayPromptArgs" Text="Display Prompt" Clicked="BtnDisplayPromptArgsClickedAsync"/>
+        <Label x:Name="lblAnswer" Text="Please click the button!" />
+    </VerticalStackLayout>
+</ContentPage>
