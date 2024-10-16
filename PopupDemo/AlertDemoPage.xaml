@@ -8,5 +8,14 @@
             Text="Alert Demo"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Button x:Name="btnShowAlert" Text="Show alert" Clicked="btnShowAlertClickedAsync" />
+    
+        <Label 
+                Text="Confirm Dialog Demo"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+        <Button x:Name="btnShowConfirmDialog" Text="Show Confirm Dialog" Clicked="btnShowConfirmDialogClickedAsync" />
     </VerticalStackLayout>
 </ContentPage>
