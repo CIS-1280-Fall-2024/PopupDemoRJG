@@ -15,5 +15,10 @@
         Title="Alert Demo"
         ContentTemplate="{DataTemplate local:AlertDemoPage}"
         Route="AlertDemoPage" />
+    <ShellContent
+        Title="ActionSheet Demo"
+        ContentTemplate="{DataTemplate local:ActionSheetDemoPage}"
+        Route="ActionSheetDemoPage" />
+
 
 </Shell>

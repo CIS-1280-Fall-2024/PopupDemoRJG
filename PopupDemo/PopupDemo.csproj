@@ -63,6 +63,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="ActionSheetDemoPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="AlertDemoPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
